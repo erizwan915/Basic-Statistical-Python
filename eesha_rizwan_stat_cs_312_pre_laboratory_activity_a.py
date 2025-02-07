@@ -19,18 +19,6 @@ Original file is located at
 
 # Laboratory Lecture A #
 
-Today is our first laboratory activity. I designed it to give you an introduction to using a notebook-style IDE. Google Colab is the online Python environment you should use for the course. You can also use Jupyter notebooks, but it will become rather cumbersome quickly (speed issues).
-
-By the end of this lab, you should be able to work with Colab, have a better understanding of the structure of laboratory activities in this course, and understand the importance of preparation. Note that this laboratory activity is much more structured than most. In the future, these labs will contain less instruction, relying on your learning to that point (or on your Google skills).
-
-&nbsp;
-&nbsp;
-&nbsp;
-
-## Preamble ##
-
-In this section, you import all of the necessary packages for the notebook. It is always good to have a separate section at the head to import packages. This is a part of proper programming presentation. If people expect the packages to be imported at the start, that is where you should place them.
-"""
 
 import math
 import io
@@ -54,10 +42,6 @@ And... if you creating new data sets from the old ones (such as here), then you 
 If you are using Google Colab, the following cell is needed. It connects the notebook to your Google Drive. If you are using Jupyter notebooks, then this cell is (probably) not needed.
 """
 
-### Note
-#   If you are using Google Colab, the following cell is needed. It connects this notebook
-#   to your Google Drive. If you are using Jupyter notebooks, then this cell is (probably)
-#   not needed. You just need to ensure that the xlsx file is in the folder.
 
 
 from google.colab import drive
